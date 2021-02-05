@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "Mayenne Sans Regular";
+    src: url("./assets/Mayenne_Sans-Regular_web.woff2") format("woff2");
+}
+
+  h1{
+      font-family: "Mayenne Sans Regular";
+  }
