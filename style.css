@@ -2,7 +2,68 @@
     font-family: "Mayenne Sans Regular";
     src: url("./assets/Mayenne_Sans-Regular_web.woff2") format("woff2");
 }
+@font-face {
+    font-family: "Jet Brains Mono Regular";
+    src: url("./assets/JetBrainsMono-Regular.woff2") format("woff2");
+}
+@font-face {
+    font-family: "Jet Brains Mono ThinItalic";
+    src: url("./assets/JetBrainsMono-ThinItalic.woff2") format("woff2");
+}
 
   h1{
       font-family: "Mayenne Sans Regular";
   }
+  h2{
+      font-family: "Jet Brains Mono Regular";
+  }
+  p{
+    font-family: "Jet Brains Mono Regular";
+    font-size: 50px;
+    color: rgb(134, 241, 134);
+    transform: rotate(10deg);
+  }
+  p:active{
+      transform:rotate(0deg);
+  }
+  .p2{
+    transform: rotate(-10deg);
+    color:gold;
+  }
+
+  .orange{
+      color: orange;
+      /* text-decoration: underline; */
+      border-bottom: 4px solid orangered;
+      font-size: 80px;
+  }
+  .invisible:hover{
+      font-size: 100px;
+      opacity: 0;
+  }
+
+  .appear{
+      opacity: 0;
+      transition: 0.2s ease-in-out;
+  }
+  .appear:hover{
+    opacity: 1;
+    color: royalblue;
+}
+
+.mayenne{
+    font-family: "Mayenne Sans Regular";
+    color: royalblue;
+}
+.mayenne:hover{
+    font-size: 100px;
+    transition: 1.5s ease-in-out;
+}
+.background{
+    border: 2px solid slateblue;
+    border-radius: 100px;
+}
+.italic{
+    font-family: "Jet Brains Mono ThinItalic";
+    color: deeppink;
+}
